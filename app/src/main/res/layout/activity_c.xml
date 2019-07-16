@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".ActivityC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="16dp"
+                android:layout_weight="3"
+                android:contentDescription="@string/user_profile_image"
+                app:srcCompat="@drawable/profile"
+                tools:layout_editor_absoluteX="156dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/username"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/secondary_color"
+                tools:layout_editor_absoluteY="151dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/track"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/track"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="201dp" />
+
+                <TextView
+                    android:id="@+id/track_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/track_value"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="85dp"
+                    tools:layout_editor_absoluteY="201dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/country"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="243dp" />
+
+                <TextView
+                    android:id="@+id/country_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/country_value"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="243dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="286dp" />
+
+                <TextView
+                    android:id="@+id/email_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_value"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="85dp"
+                    tools:layout_editor_absoluteY="286dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_number"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="328dp" />
+
+                <TextView
+                    android:id="@+id/phone_number_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/phone_number_value"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="18sp"
+                    tools:layout_editor_absoluteX="141dp"
+                    tools:layout_editor_absoluteY="328dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/slack_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slack_username"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="37dp"
+                    tools:layout_editor_absoluteY="371dp" />
+
+
+                <TextView
+                    android:id="@+id/slack_username_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slack_username_value"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    tools:layout_editor_absoluteX="149dp"
+                    tools:layout_editor_absoluteY="371dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

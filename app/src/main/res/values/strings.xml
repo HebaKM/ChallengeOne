@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Challenge One</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="username">Heba M</string>
+    <string name="country">Country</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="slack_username">Slack Username</string>
+    <string name="country_value">Egypt</string>
+    <string name="email_value">s*****@mail.com</string>
+    <string name="track">Track</string>
+    <string name="track_value">Android</string>
+    <string name="phone_number_value">200000000000</string>
+    <string name="slack_username_value">\@Heba</string>
+    <string name="andela_s_logo">Andela\'s Logo</string>
+    <string name="entry_placeholder">Enrty</string>
+    <string name="entry_value_placeholder">Entry Value</string>
+</resources>
